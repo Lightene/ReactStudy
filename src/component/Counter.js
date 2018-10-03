@@ -12,7 +12,7 @@ class Counter extends  Component{
     }
 
     handleDecrease = () =>{
-        this.setState({
+    this.setState({
             number : this.state.number - 1
         })
     }
